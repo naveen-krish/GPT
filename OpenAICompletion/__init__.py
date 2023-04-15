@@ -5,7 +5,7 @@ import azure.functions as func
 # sample request body
 # {"model":"text-davinci-003","prompt":"This is a test","max_tokens":200,"temperature":0}
 
-secret_key = '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'
+secret_key = ''
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
